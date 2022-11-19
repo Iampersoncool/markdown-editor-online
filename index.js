@@ -34,7 +34,7 @@ app.get('/', (request, reply) => {
 });
 
 app
-  .listen({ port })
+  .listen({ port, host: '0.0.0.0' })
   .then((address) => console.log(`app listening on ${address}`))
   .catch((err) => {
     throw Error(`Error listening to port: ${err}`);
