@@ -12,11 +12,11 @@ if (markdownValue) {
 } else {
   const value = `
 
-  # hello world
+# hello world
 
-  **Edit this text**
+**Edit this text**
 
-  [Link](https://www.example.com)
+[Link](https://www.example.com)
 
   `.trim();
 
