@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index page</title>
+
+  <link rel="stylesheet" href="/static/css/reset.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/github-markdown.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/ace.js" integrity="sha512-IQmiIneKUJhTJElpHOlsrb3jpF7r54AzhCTi7BTDLiBVg0f7mrEqWVCmOeoqKv5hDdyf3rbbxBUgYf4u3O/QcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/theme-one_dark.min.js" integrity="sha512-fkBNFFo3vuNzwUVCyDJh2aNl7nViFet/XHeWQRjALcuO7a7AdOfGI9iKBhoBt/nV1HsJvzLssyRTuotxAx+YBA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/static/js/script.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="editor"></div>
+    <div class="output__code markdown-body"></div> 
+  </div>
+</body>
+</html>

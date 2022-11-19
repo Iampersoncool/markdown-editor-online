@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.container div {
+  flex: 1;
+}
+
+.output__code,
+#editor {
+  padding: 0.5rem;
+}
+
+#editor {
+  font-size: 1.4rem;
+  width: 50vw;
+  height: 100vh;
+}
