@@ -16,3 +16,8 @@
   width: 50vw;
   height: 100vh;
 }
+
+.output__code {
+  height: 100vh;
+  overflow-y: scroll;
+}
